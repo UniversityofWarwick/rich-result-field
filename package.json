@@ -1,0 +1,32 @@
+{
+  "name": "@universityofwarwick/rich-result-field",
+  "version": "1.0.0",
+  "description": "RichResultField is a text field that can be overlaid with a similar-looking box containing arbitrary text. Useful if you want to save a particular value from a picker but display something more friendly from the user.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib/rich-result-field.js",
+    "lib/rich-result-field.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UniversityOfWarwick/rich-result-field.git"
+  },
+  "author": "University of Warwick",
+  "license": "ISC",
+  "homepage": "https://github.com/UniversityOfWarwick/rich-result-field#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.5.34",
+    "typescript": "^6.0.2",
+    "jquery": "3.7.1"
+  },
+  "peerDependencies": {
+    "jquery": ""
+  }
+}
