@@ -7,7 +7,7 @@
  */
 export default class RichResultField {
     $input: JQuery<HTMLElement>;
-    $uneditables: JQuery<HTMLElement>;
+    $uneditable: JQuery<HTMLElement>;
     constructor(input: HTMLElement);
     /** Clear field, focus for typing */
     edit(): void;
